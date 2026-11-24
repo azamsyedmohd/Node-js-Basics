@@ -1,3 +1,10 @@
-// run `node index.js` in the terminal
+var name = "Namaste NodeJS" ;
 
-console.log(`Hello Node.js v${process.versions.node}!`);
+var a = 10;
+var b = 20;
+
+console.log(name);
+console.log(a+b);
+
+console.log(globalThis);
+console.log(global);
